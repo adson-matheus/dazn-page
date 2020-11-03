@@ -10,11 +10,9 @@ body{
 }
 /* float para os links */
 .nav-left{
-	padding: 15px;
 	float: left;
 }
 .nav-right{
-	padding: 15px;
 	float: right;
 }
 
@@ -78,8 +76,4 @@ ul{
 li{
 	/* deixar todos os li em uma linha */
 	display: inline;
-}
-.active{
-	/* links ativos */
-	border-bottom-color: yellow;
 }
