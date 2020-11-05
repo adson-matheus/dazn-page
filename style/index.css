@@ -6,7 +6,7 @@ body{
 	padding: 0;
 	background-color: #0c161c;
 	color: white;
-	font-family: sans-serif;
+	font-family: Oscine, AxisSTD, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 /* float para os links */
 .nav-left{
@@ -22,12 +22,28 @@ a, i{
 	color: inherit;
 }
 
+.inicio_link{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f7ff1a;
+	padding: 4px 0px 12px 0px;
+}
+
+.programacao_link:hover, .esportes_link:hover{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f7ff1a;
+	padding: 4px 0px 12px 0px;
+}
 /* navbar */
 .navbar{
 	overflow: hidden;
 	position: fixed;
+	display: block;
 	top: 0;
 	width: 100%;
+	background-color: #0c161c;
+	border-bottom: solid 1px #242d33;
 }
 
 ul{
@@ -41,12 +57,12 @@ li{
 }
 
 .main{
-	margin-top: 100px;
+	margin-top: 104px;
 }
 /* foto principal */
 .imagem_fundo_inicial img{
 	width: 100%;
-	height: 50%;
+	height: 100%;
 	padding: 0px;
 }
 
