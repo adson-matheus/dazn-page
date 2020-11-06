@@ -6,7 +6,7 @@ body{
 	padding: 0;
 	background-color: #0c161c;
 	color: white;
-	font-family: Oscine, AxisSTD, "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: sans-serif;
 }
 /* float para os links */
 .nav-left{
@@ -28,12 +28,12 @@ a, i{
 	border-bottom-color: #f7ff1a;
 	padding: 4px 0px 12px 0px;
 }
+.programacao_link, .esportes_link{
+	padding: 4px 0px 12px 0px;
+}
 
 .programacao_link:hover, .esportes_link:hover{
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #f7ff1a;
-	padding: 4px 0px 12px 0px;
+	border-bottom: 2px solid #f7ff1a;
 }
 /* navbar */
 .navbar{
@@ -51,20 +51,55 @@ ul{
 	margin: 0;
 	padding: 0;
 }
+
+/* deixar todos os li em uma linha */
 li{
-	/* deixar todos os li em uma linha */
 	display: inline;
 }
-
 .main{
 	margin-top: 104px;
 }
-/* foto principal */
-.imagem_fundo_inicial img{
+/* foto tela inicial */
+.imagem_tela_inicial img{
 	width: 100%;
 	height: 100%;
-	padding: 0px;
 }
+
+.mensagem_tela_inicial h2{
+	font-size: 20px;
+}
+
+.btn_tela_inicial{
+}
+/* botao 1 */
+.bt1{
+	margin-bottom: 12px;
+	width: 80%;
+	border: 0.5px solid black;
+	padding: 12px;
+	color: #0c161c;
+	background-color: #f7ff1a;	
+}
+.bt1:hover{
+	background-color: #dee600;
+}
+/* fim botao 1 */
+
+/* botao 2 */
+.bt2{
+	margin-bottom: 12px;
+	width: 80%;
+	padding: 12px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+}
+.bt2:hover{
+	color: black;
+	background-color: white;
+}
+/* fim botao 2 */
+
 
 .sinuca{
 	padding: 0;
